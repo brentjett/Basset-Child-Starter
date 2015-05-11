@@ -1,0 +1,12 @@
+// Layout Styling
+
+// Basset library
+// Importing the library doesn't write any styling by default. Include the .basset mixin for helper styles & WordPress-generated content styles.
+@import "../basset/libraries/basset";
+.basset;
+
+
+// Include content.less styles. It's a good idea to scope this import inside your inner-most content-wrapping element.
+main {
+    @import "content";
+}

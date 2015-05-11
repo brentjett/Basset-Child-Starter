@@ -1,0 +1,12 @@
+/*
+Theme Name: Basset Child Starter Theme
+Template: basset
+Version: 0.1
+Author: Brent Jett
+
+Description: This is a starter child theme. It requires the basset theme be included in the site to function.
+
+DO NOT USE FOR STYLING. USE LESS FILES INSTEAD.
+libraries/content.less - Put all simple content styles in this stylesheet. This will be included in the editor as well.
+libraries/layout.less - Put any layout and positioning styles here. This is already setup to be enqueued in config.json
+*/
