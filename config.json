@@ -1,11 +1,19 @@
 {
     "theme_support" : {
         "title_tag" : true,
-
+        "html5" : [
+			"comment-list",
+			"comment-form",
+			"search-form",
+			"gallery",
+			"caption"
+		]
     },
-    "enqueue_styles" : {
-        "my-child-theme" : {
-            "path" : "libraries/layout.less"
+    "register_styles" : {
+        "my-child-theme-layouts" : {
+            "path" : "libraries/layout.less",
+            "dependencies" : ["open-sans"],
+            "active_callback" : "is_front_page"
         }
     },
     "nav_menus" : {
