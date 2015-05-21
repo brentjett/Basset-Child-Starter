@@ -10,10 +10,9 @@
 		]
     },
     "register_styles" : {
-        "my-child-theme-layouts" : {
+        "my-child-theme-layout" : {
             "path" : "libraries/layout.less",
-            "dependencies" : ["open-sans"],
-            "active_callback" : "is_front_page"
+            "dependencies" : ["open-sans", "dashicons"]
         }
     },
     "nav_menus" : {
