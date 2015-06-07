@@ -7,7 +7,9 @@
 			"search-form",
 			"gallery",
 			"caption"
-		]
+		],
+        "automatic_feed_links" : true,
+        "post_thumbnails" : true
     },
     "register_styles" : {
         "my-child-theme-layout" : {
